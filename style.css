@@ -1,5 +1,6 @@
 html {
-  --color-acent: #4E56F0;
+  --color-accent: #4E56F0;
+  accent-color: var(--color-accent);
 }
 
 body {
@@ -30,6 +31,14 @@ nav a {
   color: inherit;
   text-align: center;
   padding: 0.5em;
+}
+
+nav a:hover {
+  border-bottom-width: 0.4em;
+  border-bottom-style: solid;
+  border-bottom-color: var(--color-accent);
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+  padding-bottom: 0.1em;
 }
 
 nav .current {
