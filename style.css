@@ -87,3 +87,42 @@ label {
 label, button{
   grid-column: 1 / -1;
 }
+
+header {
+  text-align: center;
+  padding-bottom: 2em;
+  border-bottom-color: var(--color-accent);
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  margin-bottom: 2em;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+header a:hover {
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+.resume-body {
+  display: flex;
+  flex-direction: row;
+}
+
+section {
+  flex: 1;
+  padding: 1%;
+}
+
+.col-header {
+  text-align: center;
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+  padding: 0.5em;
+}
+
+.resume-body h2,
+.resume-body h3 {
+  text-align: center;
+}
