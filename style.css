@@ -47,3 +47,43 @@ nav .current {
   border-bottom-color: oklch(80% 3% 200);
   padding-bottom: 0.1em;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+article {
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+}
+
+article h2 {
+  margin: 0;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+label {
+  font: inherit;
+  display: grid;
+  grid-template-columns: subgrid;
+  gap: 1em;
+}
+
+label, button{
+  grid-column: 1 / -1;
+}
