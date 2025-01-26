@@ -47,7 +47,7 @@ nav a:hover {
   border-bottom-width: 0.4em;
   border-bottom-style: solid;
   border-bottom-color: var(--color-accent);
-  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 90%);
   padding-bottom: 0.1em;
 }
 
@@ -113,7 +113,7 @@ header a {
 }
 
 header a:hover {
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 .resume-body {
@@ -128,7 +128,7 @@ section {
 
 .col-header {
   text-align: center;
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
   padding: 0.5em;
 }
 
