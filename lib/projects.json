@@ -1,16 +1,19 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates earum dolore sunt sint, eveniet eum minus, asperiores aperiam temporibus, perspiciatis soluta quae illum corporis odit voluptatem repellat totam. Voluptatibus, tempore?"
+        "title": "How is rainfall correlated with traffic accidents?",
+        "year:": "2025",
+        "image": "/portfolio/images/traffic-rainfall.png",
+        "description": "A visualization showing how Chicago rainfall and traffic accidents are closely related."
     },
     {
-        "title": "Totam quisquam itaque beatae?",
+        "title": "DSC106 Project 2",
+        "year:": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dolore similique facilis, delectus quos iure incidunt repellat saepe accusantium. Deleniti aspernatur atque soluta quia quas aliquam quo perspiciatis sequi sunt ea. Aspernatur rerum neque cupiditate accusantium sint earum labore."
+        "description": "Will be done by next Tuesday :)"
     },
     {
-        "title": "Provident ducimus quis possimus!",
+        "title": "DSC80 Final Project",
+        "year:": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Numquam commodi minus explicabo, perspiciatis recusandae natus in. Quidem aperiam eaque dolorum sequi corporis, repellat ex explicabo dolores tenetur quos. Ut cupiditate illum ullam accusamus, odit sint magni beatae quis."
     },

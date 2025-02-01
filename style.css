@@ -80,6 +80,11 @@ dt {
   gap: 1em;
 }
 
+.projects img {
+  width: 100%;
+  max-width: 300px; /* Prevents images from getting too large */
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
