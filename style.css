@@ -58,6 +58,22 @@ nav .current {
   padding-bottom: 0.1em;
 }
 
+.profile-stats {
+  border-top: 1px;
+  border-top-style: solid;
+}
+
+dl {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+}
+
+dt {
+  display: inline-block;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
