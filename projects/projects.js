@@ -119,8 +119,6 @@ arcs.forEach((arc, i) => {
     });
 });
 
-
-
 let query = '';
 let searchInput = document.querySelector('.searchBar');
 searchInput.addEventListener('change', (event) => {
