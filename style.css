@@ -14,10 +14,6 @@ body {
     padding: 20px;
   }
 
-ul, li {
-  display:contents;
-}
-
 label.color-scheme {
   position: absolute;
   top: 1rem;
@@ -74,6 +70,61 @@ dt {
   display: inline-block;
 }
 
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.3;
+  }
+}
+
+path {
+  cursor: pointer;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important;
+
+  &:is(path) {
+    fill: var(--color);
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+ul.legend{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+  padding: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: oklch(50% 10% 200 / 40%);
+  flex: 1;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+span.swatch {
+  display: inline-block;
+  width: 25px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 10%;
+}
+
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
@@ -83,6 +134,10 @@ dt {
 .projects img {
   width: 100%;
   max-width: 300px; /* Prevents images from getting too large */
+}
+
+.projects p.year {
+  font-family:'Courier New', Courier, monospace;
 }
 
 h1, h2, h3, h4, h5, h6 {

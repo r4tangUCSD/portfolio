@@ -1,64 +1,73 @@
 [
     {
         "title": "How is rainfall correlated with traffic accidents?",
-        "year:": "2025",
+        "year": "2025",
         "image": "/portfolio/images/traffic-rainfall.png",
         "description": "A visualization showing how Chicago rainfall and traffic accidents are closely related."
     },
     {
-        "title": "DSC106 Project 2",
-        "year:": "2025",
+        "title": "Sugar intake's effect on glucose readings in prediabetic patients.",
+        "year": "2025",
+        "image": "/portfolio/images/informative_visualization.png",
+        "description": "Graphing average change in glucose readings two hours after eating high sugar meals."
+    },
+    {
+        "title": "DSC106 Project 3",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Will be done by next Tuesday :)"
+        "description": "Work in progress!"
     },
     {
         "title": "DSC80 Final Project",
-        "year:": "2024",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Numquam commodi minus explicabo, perspiciatis recusandae natus in. Quidem aperiam eaque dolorum sequi corporis, repellat ex explicabo dolores tenetur quos. Ut cupiditate illum ullam accusamus, odit sint magni beatae quis."
+        "description": "Can we predict which team will win a league of legends match based on their agent picks?"
     },
     {
-        "title": "Facere, ea architecto! Fuga!",
+        "title": "CSE150A Chatbot project",
+        "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Placeat voluptatum ducimus temporibus, numquam facilis vero minus sed, mollitia cum labore tenetur veniam? Deleniti placeat quidem qui laudantium, reiciendis distinctio ut, a nulla eligendi accusamus repudiandae facilis sint soluta!"
+        "description": "Work in progress!"
     },
     {
-        "title": "Dolorum ullam sit vel!",
+        "title": "DSC106 Project 4",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Impedit iste eaque odio modi assumenda odit, nesciunt ut eius illum! Nesciunt molestiae perspiciatis quae, rerum minima nisi, beatae, quos odio explicabo alias assumenda! Fugiat magnam facilis quam accusamus quo."
-    },
-    {
-        "title": "Fuga error delectus placeat?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quos nihil quasi dolores eum, sit nulla voluptatibus sed ipsa, corporis perferendis similique excepturi cupiditate cum, reiciendis ipsum officiis non! Blanditiis iusto dolore, soluta eum recusandae nesciunt officiis corporis totam."
+        "description": "Will be done soon"
     },
     {
         "title": "Eligendi commodi nemo minus?",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Iste fugit numquam nobis aliquam ex laborum magni neque nisi. Maiores, enim et culpa, recusandae officiis fugiat ad molestiae expedita nostrum accusantium iusto praesentium. Accusamus at sunt quibusdam quis quae."
     },
     {
         "title": "Accusamus porro optio placeat.",
+        "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Culpa, pariatur similique? Asperiores eos totam molestias nesciunt tempore nemo inventore, suscipit nostrum exercitationem officiis ipsa beatae modi dolorum facilis obcaecati illum commodi. Tempore aliquid, delectus id itaque doloremque iste."
     },
     {
         "title": "Cupiditate neque ipsa accusamus.",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Blanditiis ullam, iste reprehenderit enim, esse sint architecto voluptas nostrum quidem impedit ducimus aliquid delectus. Incidunt nobis reprehenderit facilis. Praesentium quo aut et, pariatur esse aspernatur incidunt omnis natus nulla?"
     },
     {
         "title": "Illo doloribus accusamus iure.",
+        "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Error earum doloremque architecto incidunt quod adipisci voluptas ut ullam reprehenderit quae fugiat aut tempore inventore voluptate provident, a perferendis iure deleniti voluptatem repellat illo recusandae commodi assumenda? A, nulla."
     },
     {
         "title": "Voluptatibus nobis eveniet eligendi.",
+        "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Dolorem repudiandae quis placeat veniam provident eius accusantium autem perspiciatis officiis facere quaerat quas consequuntur fuga molestias aliquam ipsam, officia consectetur! Ratione soluta doloribus nemo officia enim? Et, architecto explicabo!"
     },
     {
         "title": "Cum expedita quod eveniet.",
+        "year": "2022",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Eaque, iure quam amet minus cumque repellendus est enim dolores voluptatibus iste, quae officiis sapiente. Culpa aliquid perferendis magni eos ratione iusto nam, hic debitis minus dicta nemo cum quaerat."
     }
