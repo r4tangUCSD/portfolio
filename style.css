@@ -168,6 +168,13 @@ dd {
 
 dl.info {
   display: grid;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .tooltip {
@@ -182,6 +189,8 @@ dl.info {
   gap: 0;
 }
 
+
+
 circle {
   transition: 200ms;
   transform-origin: center;
@@ -194,6 +203,24 @@ circle:hover {
 
 g.gridlines {
   color: oklch(85.34% 0 31)
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
 }
 
 h1, h2, h3, h4, h5, h6 {
