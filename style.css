@@ -166,6 +166,36 @@ dd {
   margin: 5px;
 }
 
+dl.info {
+  display: grid;
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  backdrop-filter: blur(4px);
+  padding: 10px;
+  gap: 0;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+g.gridlines {
+  color: oklch(85.34% 0 31)
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
