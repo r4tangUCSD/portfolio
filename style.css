@@ -140,6 +140,32 @@ span.swatch {
   font-family:'Courier New', Courier, monospace;
 }
 
+#stats {
+  margin: 20px auto;
+}
+
+.stats {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.stat-item {
+  padding: 15px;
+  display: grid;
+  align-items: center;
+}
+
+dt {
+  font-weight: bold;
+  color: #333;
+}
+
+dd {
+  margin: 5px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   text-wrap: balance;
